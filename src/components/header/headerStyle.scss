@@ -1,0 +1,42 @@
+.contentHeader{
+    display: flex;
+    justify-content:space-around;
+    width: 100vw;
+    // height: 100px;
+    // z-index: 20px;
+    // background-color: red;
+    padding: 10px;
+}
+.contentHeader-home{
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contentHeader-home:hover{
+    background-color: #1087ff;
+    color: white;
+    cursor: pointer;
+}
+.contentHeader-calendar{
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contentHeader-calendar:hover{
+    background-color: #1087ff;
+    color: white;
+    cursor: pointer;
+}
+.contentHeader-statistics{
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contentHeader-statistics:hover{
+    background-color: #1087ff;
+    color: white;
+    cursor: pointer;
+}

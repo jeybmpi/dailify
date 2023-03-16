@@ -1,0 +1,485 @@
+.feelings{
+  margin-top: -25px;
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  // background-color: red;
+  width: 100vw;
+  height: 40vh;
+  // max-height: 40%;
+}
+.contentWord{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 90px;
+}
+.back{
+  margin-left: -80%;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 10px 10px 7px 10px;
+}
+.back:hover{
+  cursor: pointer;
+  background-color: #1087FF;
+}
+.backImg{
+  width: 30px;
+  height: 30px;
+}
+.dayToSave{
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.contentFeelings{
+  display: flex;
+  gap: 60px;
+}
+.contentFeelings:hover{
+  // cursor: pointer;
+}
+// SAD__________________________________________SAD
+.sad{
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #B40042; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sad:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+.sad + .sad {
+  border-radius: 50%;
+}
+//__________
+.sadOn{
+  filter: invert(8%) sepia(98%) saturate(7182%) hue-rotate(330deg) brightness(80%) contrast(111%);
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #000000; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sadOn:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  filter: invert(0%) sepia(93%) saturate(28%) hue-rotate(100deg) brightness(90%) contrast(106%);
+}
+.sadOn + .sadOn {
+  border-radius: 50%;
+}
+//_____________________________________________________END SAD
+// REGULAR__________________________________________REGULAR
+.regular{
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #00E4BB; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.regular:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+.regular + .regular {
+  border-radius: 50%;
+}
+.regularOn{
+  filter: invert(87%) sepia(28%) saturate(4575%) hue-rotate(110deg) brightness(89%) contrast(101%);
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #000000; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.regularOn:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  filter: invert(0%) sepia(93%) saturate(28%) hue-rotate(100deg) brightness(90%) contrast(106%);
+}
+.regularOn + .regularOn {
+  border-radius: 50%;
+}
+//____________________________________________END REGULAR
+// ____________________________________SMILE
+.smile{
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #8BF387; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.smile:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+.smile + .smile {
+  border-radius: 50%;
+}
+.smileOn{
+  filter: invert(99%) sepia(15%) saturate(5211%) hue-rotate(52deg) brightness(113%) contrast(91%);
+  border-radius: 100px;
+  --s: 50px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #000000; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.smileOn:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  filter: invert(0%) sepia(93%) saturate(28%) hue-rotate(100deg) brightness(90%) contrast(106%);
+}
+.smileOn + .smileOn {
+  border-radius: 50%;
+}
+// ______________________________________________END SMILE
+// .smileImg{
+//   width: 80px;
+//   height: 80px;
+// }
+// este puede ir comentado
+// ___________________________
+
+// ________________________________
+// .save{
+//   width: 10px;
+//   height: 10px;
+// }
+// .save:hover{
+//   filter: invert(83%) sepia(94%) saturate(474%) hue-rotate(359deg) brightness(93%) contrast(86%);
+// }
+// ___________________________SAVE 
+
+.save{
+  margin-left: 150px;
+  border-radius: 3px;
+  --s: 30px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #F9F871; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.save:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+.save + .save {
+  border-radius: 50%;
+}
+
+.saveOn{
+  filter: invert(55%) sepia(76%) saturate(5423%) hue-rotate(194deg) brightness(101%) contrast(101%);
+  margin-left: 150px;
+  border-radius: 3px;
+  --s: 30px;   /* the size of the image */
+  --b: 5px;     /* the border thickness*/
+  --g: 7px;    /* the gap */
+  --c: #e9e91f; /* the color */
+  
+  // --g: 20px;--b:5px;--c:#D95B43;
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid transparent;
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.saveOn:hover{
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+  filter: invert(55%) sepia(76%) saturate(5423%) hue-rotate(194deg) brightness(101%) contrast(101%);
+}
+.saveOn + .saveOn {
+  border-radius: 50%;
+}
+// .saveImg{
+//   width: 30px;
+//   height: 30px;
+// }
+// ____________________________END SAVE
+
+
+
+
+.contentAllCalendar{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.contentCalendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  // justify-content:space-between;
+  width: 100vw;
+  height: 100vh;
+  // max-height: 100%;
+  // min-height: 60%;
+  // margin-top: 200px;
+  // background-color: red;
+  // border: 1px solid black;
+  // color: #00d157;
+}
+
+.react-calendar {
+  width: 350px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  // ____________________________________________
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 4px;
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+  border-radius: 8px;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+  border-radius: 8px;
+}
+.react-calendar__tile--now {
+  background: #686de0;
+  border-radius: 8px;
+  color: white;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #6c4db7;
+  color: black;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+  // border-radius: 8px;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+  border-radius: 8px;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 5vmin;
+  height: 5vmin;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #1087ff,
+      #1087ff 50%,
+      #1087ff,
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #1087ff, #529eeb);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+  border-radius: 8px;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 5vmin;
+  height: 5vmin;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #1087ff,
+      #1087ff 50%,
+      #1087ff,
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #1087ff, #529eeb);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+  
+}
